@@ -59,7 +59,7 @@ class _AlbumsState extends State<Albums> {
                             ),
                           ),
                           leading: Text(
-                            item.id.toString(),
+                            '${index + 1}',
                             style: const TextStyle(
                               color: Colors.white,
                             ),
